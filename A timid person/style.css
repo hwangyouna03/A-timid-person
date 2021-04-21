@@ -39,7 +39,7 @@ a {
     justify-content : space-between;
     align-items: center;
     background-color:#FFFFFF;
-    padding : 2px 430px;
+    padding : 5px 300px;
     font-family:"TmoneyRoundWindExtraBold";
     
 }
@@ -60,16 +60,90 @@ a {
 }
 
 .navbar_menu li {
-    padding : 4px 15px;
+    padding : 10px 30px;
+    position:relative;
+    width:120px;
     
 }
 
 .navbar_menu li:hover {
-    background-color:#FAAC58;
+    background-color:#FACC2E;
     border-radius: 4px; 
+   
+}
+*{
+    margin:0;
+    padding :0;
+}
+li{
+    list-style: none;
+    
+}
+/*second_menu1 드롭박스*/
+.second_menu1 {
+    position:absolute;
+    top:100%;
+    left:0;
+    
+}
+.second_menu1 li{
+    width:120px;
+    border:2px;
+    text-align: left;
+    
+}
+.navbar_menu li .second_menu1{
+   
+    list-style: none;
+    padding-left: 0;
+    display:none;
+}
+ul.navbar_menu li:hover ul.second_menu1 {
+    display:block;
+    margin:0 auto;
+    margin-right:10px;
+}
+/*second_menu2 드롭박스*/
+.second_menu2{
+    position:absolute;
+    top:100%;
+    left:0;
+}
+.second_menu2 li{
+    width:120px;
+    border:2px;
+    text-align: left;
+}
+.navbar_menu li .second_menu2 {
+    list-style:none;
+    padding-left:0;
+    display:none;
+}
+ul.navbar_menu li:hover ul.second_menu2 {
+    display: block;
+}
+/*second_menu3 드롭박스*/
+.second_menu3 {
+    position: absolute;
+    top:100%;
+    left:0;
+}
+.second_menu3 li{
+    width:120px;
+    border:2px;
+    text-align: left;
+   
+}
+.navbar_menu li .second_menu3 {
+    list-style:none;
+    padding-left: 0;
+    display:none;
+}
+ul.navbar_menu li:hover ul.second_menu3{
+    display: block;
 }
 
-
+/*navbar 상태*/
 @media screen and (max-width: 768px){
     .navbar{
         flex-direction: colum;
@@ -100,10 +174,10 @@ a {
         
     }
     .header_member li:hover {
-        background-color:#BDBDBD;
+        background-color:#04B431;
         border-radius: 4px; 
     }
-    
+    /*header 상태*/
     @media screen and (max-width: 768px){
         
 
@@ -123,11 +197,19 @@ a {
             
         }
     }
+     /*main*/
     .main_sceen{
         font-family:"TmoneyRoundWindRegular";
         Font-size:20px;
-        margin-left:50%;
-        margin-top:7%;
+        margin-left:35%;
+        margin-top:8%;
     }
     
+    /*footer*/
+    .f_logo{
+        font-size : 15px;
+        font-family:"TmoneyRoundWindRegular";
+        margin-left:1%;
+        margin-top:8%;
+    }
 
