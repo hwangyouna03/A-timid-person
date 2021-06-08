@@ -202,7 +202,11 @@ ul.navbar_menu li:hover ul.second_menu3{
         font-family:"TmoneyRoundWindRegular";
         Font-size:20px;
         margin-left:35%;
-        margin-top:8%;
+        margin-top:5%;
+    }
+    /*image*/
+    .image {
+        margin-left:10%;
     }
     
     /*footer*/
@@ -210,6 +214,7 @@ ul.navbar_menu li:hover ul.second_menu3{
         font-size : 15px;
         font-family:"TmoneyRoundWindRegular";
         margin-left:1%;
-        margin-top:8%;
+        margin-top:11%;
+        
     }
 
