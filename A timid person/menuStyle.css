@@ -213,8 +213,64 @@ ul.navbar_menu li:hover ul.second_menu3{
         margin-left:1%;
         margin-top:8%;
     }
-
+/*mainmenu*/
 .classic {
-    margin-top:20px;
-    margin-right:50px;
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+.fresh {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+.premium {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+/*sideMenu style*/
+.cookie {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+.soup {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+.potato {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+.theRest {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+/*menu style*/
+.salad {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    
+}
+.hover_effect_box {
+    width:400px;
+}
+.wrap {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+.morning {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+.M_wrap {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
 }
