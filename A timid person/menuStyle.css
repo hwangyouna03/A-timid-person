@@ -291,18 +291,18 @@ ul.navbar_menu li:hover ul.second_menu3{
 }
 
 /*fresh&light*/
-.freshlistt {
+.freshlist {
     max-width:1200px;
     width:100%;
     margin:0 auto;
 }
 .freshlist ul {font-size:0;}
-.freshlistt ul > li {
+.freshlist ul > li {
     display:inline-block;
     vertical-align: top;
     width:33.3%;
 }
-freshlist ul > li> a {
+.freshlist ul > li> a {
     display:block;
     width:auto;
     text-decoration:none;
@@ -361,6 +361,79 @@ freshlist ul > li> a {
 .freshlist .screen .txt{
     font-size: 50dp;
 }
+
+/*premium*/
+.premiumlist {
+    max-width:1200px;
+    width:100%;
+    margin:0 auto;
+}
+.premiumlist ul {font-size:0;}
+.premiumlist ul > li {
+    display:inline-block;
+    vertical-align: top;
+    width:33.3%;
+}
+.premiumlist ul > li> a {
+    display:block;
+    width:auto;
+    text-decoration:none;
+    margin:5px;
+}
+.premiumlist ul > li > a .screen{
+    position:relative;
+    overflow:hidden;
+}
+
+.premiumlist ul > li > a .screen .top{
+    position:absolute;
+    bottom:150%;
+    left:30px;
+    z-index:2;
+    color:#fff;
+    font-size:26px;
+    font-weight:900;
+    transition:all .35s;
+}
+.premiumlist ul > li > a .screen .bottom {
+    position:absolute;
+    top:150%;
+    left:30px;
+    z-index:2;
+    font-size:12px;
+    transition: all .35s;
+}
+.premiumlist ul > li > a .screen img {
+    width:100%;
+}
+.premiumlist ul > li > a h3{
+    font-size: 14px;
+    text-align:center;
+    padding:20px;
+    color:#666;
+}
+.premiumlist ul > li > a:hover .top {bottom:52%;}
+.premiumlist ul > li > a:hover .bottom{top:52%;}
+.premiumlist ul > li > a .screen::after {
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(143, 143, 143, 0.5);
+    z-index:1;
+    opacity:0;
+    transition:all .35s;
+}
+.premiumlist ul > li > a:hover .screen::after { /*after = 가상요소*/
+    opacity:1;
+}
+.premiumlist .screen .txt{
+    font-size: 50dp;
+}
+
 /*menu style*/
 .salad {
     font-family:"TmoneyRoundWindRegular";
