@@ -198,50 +198,53 @@ ul.navbar_menu li:hover ul.second_menu3{
             
         }
     }
-     /*main*/
-    .main_sceen{
-        font-family:"TmoneyRoundWindRegular";
-        Font-size:20px;
-        margin-left:35%;
-        margin-top:8%;
-    }
-    
-    /*footer*/
-    .f_logo{
-        font-size : 15px;
-        font-family:"TmoneyRoundWindRegular";
-        margin-left:1%;
-        margin-top:8%;
-    }
-/*mainmenu*/
-.Sandwich {
+
+
+.cookie {
     font-family:"TmoneyRoundWindRegular";
     margin:auto;
     text-align:center;
 }
-.sandwichlist {
+.soup {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+.potato {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+.theRest {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+
+/*sideMenu style cookie*/
+.cookielist {
     max-width:1200px;
     width:100%;
     margin:0 auto;
 }
-.sandwichlist ul {font-size:0;}
-.sandwichlist ul > li {
+.cookielist ul {font-size:0;}
+.cookielist ul > li {
     display:inline-block;
     vertical-align: top;
     width:33.3%;
 }
-.sandwichlist ul > li> a {
+.cookielist ul > li> a {
     display:block;
     width:auto;
     text-decoration:none;
     margin:5px;
 }
-.sandwichlist ul > li > a .screen{
+.cookielist ul > li > a .screen{
     position:relative;
     overflow:hidden;
 }
 
-.sandwichlist ul > li > a .screen .top{
+.cookielist ul > li > a .screen .top{
     position:absolute;
     bottom:150%;
     left:30px;
@@ -251,7 +254,7 @@ ul.navbar_menu li:hover ul.second_menu3{
     font-weight:900;
     transition:all .35s;
 }
-.sandwichlist ul > li > a .screen .bottom {
+.cookielist ul > li > a .screen .bottom {
     position:absolute;
     top:150%;
     left:30px;
@@ -259,18 +262,18 @@ ul.navbar_menu li:hover ul.second_menu3{
     font-size:12px;
     transition: all .35s;
 }
-.sandwichlist ul > li > a .screen img {
+.cookielist ul > li > a .screen img {
     width:100%;
 }
-.sandwichlist ul > li > a h3{
+.cookielist ul > li > a h3{
     font-size: 14px;
     text-align:center;
     padding:20px;
     color:#666;
 }
-.sandwichlist ul > li > a:hover .top {bottom:52%;}
-.sandwichlist ul > li > a:hover .bottom{top:52%;}
-.sandwichlist ul > li > a .screen::after {
+.cookielist ul > li > a:hover .top {bottom:52%;}
+.cookielist ul > li > a:hover .bottom{top:52%;}
+.cookielist ul > li > a .screen::after {
     content:'';
     display:block;
     position:absolute;
@@ -283,37 +286,54 @@ ul.navbar_menu li:hover ul.second_menu3{
     opacity:0;
     transition:all .35s;
 }
-.sandwichlist ul > li > a:hover .screen::after { /*after = 가상요소*/
+.cookielist ul > li > a:hover .screen::after { /*after = 가상요소*/
     opacity:1;
 }
-.sandwichlist .screen .txt{
-    font-size: 50dp;
-}
 
-/*fresh&light*/
-.freshlistt {
+.cookie {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+.soup {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+.potato {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+.theRest {
+    font-family:"TmoneyRoundWindRegular";
+    margin:auto;
+    text-align:center;
+}
+/*sideMenu style soup*/
+.souplist {
     max-width:1200px;
     width:100%;
     margin:0 auto;
 }
-.freshlist ul {font-size:0;}
-.freshlistt ul > li {
+.souplist ul {font-size:0;}
+.souplist ul > li {
     display:inline-block;
     vertical-align: top;
     width:33.3%;
 }
-freshlist ul > li> a {
+.souplist ul > li> a {
     display:block;
     width:auto;
     text-decoration:none;
     margin:5px;
 }
-.freshlist ul > li > a .screen{
+.souplist ul > li > a .screen{
     position:relative;
     overflow:hidden;
 }
 
-.freshlist ul > li > a .screen .top{
+.souplist ul > li > a .screen .top{
     position:absolute;
     bottom:150%;
     left:30px;
@@ -323,7 +343,7 @@ freshlist ul > li> a {
     font-weight:900;
     transition:all .35s;
 }
-.freshlist ul > li > a .screen .bottom {
+.souplist ul > li > a .screen .bottom {
     position:absolute;
     top:150%;
     left:30px;
@@ -331,18 +351,18 @@ freshlist ul > li> a {
     font-size:12px;
     transition: all .35s;
 }
-.freshlist ul > li > a .screen img {
+.souplist ul > li > a .screen img {
     width:100%;
 }
-.freshlist ul > li > a h3{
+.souplist ul > li > a h3{
     font-size: 14px;
     text-align:center;
     padding:20px;
     color:#666;
 }
-.freshlist ul > li > a:hover .top {bottom:52%;}
-.freshlist ul > li > a:hover .bottom{top:52%;}
-.freshlist ul > li > a .screen::after {
+.souplist ul > li > a:hover .top {bottom:52%;}
+.souplist ul > li > a:hover .bottom{top:52%;}
+.souplist ul > li > a .screen::after {
     content:'';
     display:block;
     position:absolute;
@@ -355,33 +375,147 @@ freshlist ul > li> a {
     opacity:0;
     transition:all .35s;
 }
-.freshlist ul > li > a:hover .screen::after { /*after = 가상요소*/
+.souplist ul > li > a:hover .screen::after { /*after = 가상요소*/
     opacity:1;
 }
-.freshlist .screen .txt{
-    font-size: 50dp;
+
+/*sideMenu style potatolist*/
+.potatolist {
+    max-width:1200px;
+    width:100%;
+    margin:0 auto;
 }
-/*menu style*/
-.salad {
-    font-family:"TmoneyRoundWindRegular";
-    margin:auto;
-    
+.potatolist ul {font-size:0;}
+.potatolist ul > li {
+    display:inline-block;
+    vertical-align: top;
+    width:33.3%;
 }
-.hover_effect_box {
-    width:400px;
+.potatolist ul > li> a {
+    display:block;
+    width:auto;
+    text-decoration:none;
+    margin:5px;
 }
-.wrap {
-    font-family:"TmoneyRoundWindRegular";
-    margin:auto;
+.potatolist ul > li > a .screen{
+    position:relative;
+    overflow:hidden;
+}
+
+.potatolist ul > li > a .screen .top{
+    position:absolute;
+    bottom:150%;
+    left:30px;
+    z-index:2;
+    color:#fff;
+    font-size:26px;
+    font-weight:900;
+    transition:all .35s;
+}
+.potatolist ul > li > a .screen .bottom {
+    position:absolute;
+    top:150%;
+    left:30px;
+    z-index:2;
+    font-size:12px;
+    transition: all .35s;
+}
+.potatolist ul > li > a .screen img {
+    width:100%;
+}
+.potatolist ul > li > a h3{
+    font-size: 14px;
     text-align:center;
+    padding:20px;
+    color:#666;
 }
-.morning {
-    font-family:"TmoneyRoundWindRegular";
-    margin:auto;
+.potatolist ul > li > a:hover .top {bottom:52%;}
+.potatolist ul > li > a:hover .bottom{top:52%;}
+.potatolist ul > li > a .screen::after {
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(143, 143, 143, 0.5);
+    z-index:1;
+    opacity:0;
+    transition:all .35s;
+}
+.potatolist ul > li > a:hover .screen::after { 
+    opacity:1;
+}
+
+/*sideMenu style list*/
+.list {
+    max-width:1200px;
+    width:100%;
+    margin:0 auto;
+}
+.list ul {font-size:0;}
+.list ul > li {
+    display:inline-block;
+    vertical-align: top;
+    width:33.3%;
+}
+.list ul > li> a {
+    display:block;
+    width:auto;
+    text-decoration:none;
+    margin:5px;
+}
+.list ul > li > a .screen{
+    position:relative;
+    overflow:hidden;
+}
+
+.list ul > li > a .screen .top{
+    position:absolute;
+    bottom:150%;
+    left:30px;
+    z-index:2;
+    color:#fff;
+    font-size:26px;
+    font-weight:900;
+    transition:all .35s;
+}
+.list ul > li > a .screen .bottom {
+    position:absolute;
+    top:150%;
+    left:30px;
+    z-index:2;
+    font-size:18px;
+    transition: all .35s;
+}
+.list ul > li > a .screen img {
+    width:100%;
+}
+.list ul > li > a h3{
+    font-size: 18px;
     text-align:center;
+    padding:20px;
+    color:#666;
 }
-.M_wrap {
-    font-family:"TmoneyRoundWindRegular";
-    margin:auto;
-    text-align:center;
+.list ul > li > a:hover .top {bottom:52%;}
+.list ul > li > a:hover .bottom{top:52%;}
+.list ul > li > a .screen::after {
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(143, 143, 143, 0.5);
+    z-index:1;
+    opacity:0;
+    transition:all .35s;
 }
+.list ul > li > a:hover .screen::after { 
+    opacity:1;
+}
+
+
+
